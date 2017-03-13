@@ -6,6 +6,7 @@ class CParseConan(ConanFile):
     version = "1.0"
     url = "https://github.com/dballesg/conan-cparse"
     license = "MIT"
+    description = "Conan.io package for Cparse library."
     exports = "CMakeLists.txt"
     generators = "cmake", "txt"
     settings = "os", "compiler", "build_type", "arch"
