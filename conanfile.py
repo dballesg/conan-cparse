@@ -4,6 +4,7 @@ from conans import ConanFile, CMake
 class CParseConan(ConanFile):
     name = "CParser"
     version = "1.0"
+    url = "https://github.com/dballesg/conan-cparse"
     license = "MIT"
     exports = "CMakeLists.txt"
     generators = "cmake", "txt"
